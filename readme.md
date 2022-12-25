@@ -16,7 +16,6 @@ In this project, our aim was to build a predictive classification model using na
 
 ### Problem statement
 
-Our problem statement is:
 “How accurately can we predict whether or not a Tweet is announcing the occurrence of a natural disaster using NLP?”
 
 ## Dataset
