@@ -30,7 +30,7 @@ There were four columns in the test set: id, keyword, location, and text. Text w
 ### Methodology
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/jakebrehm/predicting-disaster-authenticityi/master/img/methodology.png"
+  <img src="https://raw.githubusercontent.com/jakebrehm/predicting-disaster-authenticity/master/img/methodology.png"
   alt="Methodology Diagram"/>
 </p>
 
@@ -50,7 +50,7 @@ The above is an overview of our workflow. Details to be found in the following s
 ### Word count
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/jakebrehm/predicting-disaster-authenticityi/master/img/wordcount.png"
+  <img src="https://raw.githubusercontent.com/jakebrehm/predicting-disaster-authenticity/master/img/wordcount.png"
   alt="Word Count Boxplot"/>
 </p>
 
@@ -59,7 +59,7 @@ The above boxplot clearly shows that there was no association between the number
 ### Topic modeling
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/jakebrehm/predicting-disaster-authenticityi/master/img/topic-modeling.png"
+  <img src="https://raw.githubusercontent.com/jakebrehm/predicting-disaster-authenticity/master/img/topic-modeling.png"
   alt="Topic Modeling Bar Chart"/>
 </p>
 
@@ -68,8 +68,8 @@ It’s clear that topics such as “california wildfire” are related to real n
 ### Sentiment analysis
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/jakebrehm/predicting-disaster-authenticityi/master/img/polarity-textblob.png" width="500"/>
-  <img src="https://raw.githubusercontent.com/jakebrehm/predicting-disaster-authenticityi/master/img/polarity-vader.png" width="500"/> 
+  <img src="https://raw.githubusercontent.com/jakebrehm/predicting-disaster-authenticity/master/img/polarity-textblob.png" width="400"/>
+  <img src="https://raw.githubusercontent.com/jakebrehm/predicting-disaster-authenticity/master/img/polarity-vader.png" width="400"/> 
 </p>
 
 Two Python libraries were used to perform sentiment analysis: `textblob` (TextBlob) and `vaderSentiment` (VADER).
@@ -79,8 +79,8 @@ The polarity boxplots illustrate that there is quite a significant difference in
 ### Word clouds
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/jakebrehm/predicting-disaster-authenticityi/master/img/wordcloud-fake.png" width="300"/>
-  <img src="https://raw.githubusercontent.com/jakebrehm/predicting-disaster-authenticityi/master/img/wordcloud-real.png" width="300"/> 
+  <img src="https://raw.githubusercontent.com/jakebrehm/predicting-disaster-authenticity/master/img/wordcloud-fake.png" width="300"/>
+  <img src="https://raw.githubusercontent.com/jakebrehm/predicting-disaster-authenticity/master/img/wordcloud-real.png" width="300"/> 
 </p>
 
 As demonstrated by the two word clouds above, the frequent words in real disaster tweets are generally more negative, intense, and/or vulgar; comparatively, tweets that aren't about real disasters seem to have words that generally have more of a positive connotation. It is, however, clear as to how those tweets could be misinterpreted as announcements of real disasters.
